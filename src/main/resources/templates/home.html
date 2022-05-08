@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" xmlns="http://www.thymeleaf.org">
+<head th:replace="plantilla/templates :: head">
     <meta charset="UTF-8">
     <title>SpringBoot</title>
+
 </head>
 <body>
-  <h1>Empezamos el proyecto de SpringBoot</h1>
+
+<header th:replace="plantilla/templates :: header"> </header>
+
+
+<h1>Empezamos el proyecto de SpringBoot</h1>
+
+<footer th:replace="plantilla/templates :: footer"></footer>
+
 </body>
 </html>
